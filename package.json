@@ -12,7 +12,7 @@
     "postinstall": "npx run tsc && copyfiles -u 1 src/**/*.mustache dist/",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start-dev": "npx nodemon -e ts,json,mustache src/server.ts",
-    "cop": "npm install -g copyfiles"
+    "cop": "npm install --save-dev copyfiles"
   },
   "repository": {
     "type": "git",
